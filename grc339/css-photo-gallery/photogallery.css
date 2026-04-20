@@ -31,7 +31,7 @@ div.container {
 main {
     position: relative;
     overflow: hidden;
-    padding-bottom: calc(67% + 3em);
+    padding-bottom: calc(67% + 4em);
 }
 
 figure{
