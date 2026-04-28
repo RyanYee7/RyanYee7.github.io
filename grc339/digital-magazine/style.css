@@ -1,0 +1,111 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+header{
+    padding: 0.5em;
+}
+
+div.container{
+    max-width: 36em;
+    margin: auto;
+}
+
+h1{
+    width: 9em;
+    margin: 1em 0em;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    padding:0.2em 0em;
+}
+
+nav{ 
+    font-family: sans-serif;
+    font-weight: bold;
+    color:rgb(95, 123, 160);
+    font-size: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+section.mainstory h2{
+    font-size: 3em;
+    color:rgb(95, 123, 160);
+    font-family: serif;
+    font-weight: bold;
+    padding: 0.5rem 0.5rem 0rem;
+}
+
+section.secondstory h2{
+    font-size: 2em;
+    color:rgb(95, 123, 160);
+    font-family: serif;
+    font-weight: bold;
+    padding: 0.5rem 0.5rem 0rem;
+}
+
+section.thirdstory h2{
+    font-size: 1.5em;
+    color:rgb(95, 123, 160);
+    font-family: serif;
+    font-weight: bold;
+    border-top: 1.5px solid rgb(95, 123, 160);
+    padding: 0.5rem;
+}
+
+p{ 
+    font-family: sans-serif;
+    margin-bottom: 2.5em;
+    line-height: 1.3em;
+    padding: 0rem 0.5rem;
+}
+
+footer{
+    font-family: sans-serif;
+    padding: 1rem 0.5rem;
+    background-color: rgb(95, 123, 160);
+    color: #ffffff;
+}
+/* Main story page */
+h2{
+    font-size: 3em;
+    color:rgb(95, 123, 160);
+    font-family: serif;
+    font-weight: bold;
+    padding: 0.5rem 0.5rem 0rem;
+}
+
+figcaption{
+    color:#5a5a5a;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-bottom: 1em;
+    line-height: 1.3em;
+    padding: 0rem 0.5rem;   
+}
+
+aside{
+    background-color: #c7ccff;
+    padding:0.5em;
+}
+
+
+@media (min-width: 36em) {
+  nav ul li {
+    display:inline;
+    margin: 0.2em 0.5em 0.2em 0em;
+  }
+}
