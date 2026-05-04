@@ -11,7 +11,7 @@ header{
     padding: 0.5em;
 }
 
-div.container{
+div.container, div.home-container{
     max-width: 36em;
     margin: auto;
 }
@@ -62,13 +62,13 @@ section.thirdstory h2{
     color:rgb(95, 123, 160);
     font-family: serif;
     font-weight: bold;
-    border-top: 1.5px solid rgb(95, 123, 160);
+    border-top: 2px solid rgb(95, 123, 160);
     padding: 0.5rem;
 }
 
 p{ 
     font-family: sans-serif;
-    margin-bottom: 2.5em;
+    margin-bottom: 1em;
     line-height: 1.3em;
     padding: 0rem 0.5rem;
 }
@@ -97,15 +97,99 @@ figcaption{
     padding: 0rem 0.5rem;   
 }
 
-aside{
-    background-color: #c7ccff;
-    padding:0.5em;
-}
-
-
 @media (min-width: 36em) {
   nav ul li {
     display:inline;
     margin: 0.2em 0.5em 0.2em 0em;
   }
+}
+
+@media only screen and (min-width:60em){
+    div.home-container{
+        max-width: 80em;
+        padding: 0 1em;
+        display:grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 1em;
+    }
+
+    div.container{
+        max-width: 60em;
+        padding: 0 1em;
+        display:grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 1em;
+    }
+
+    header, footer{
+        grid-column: 1/3;
+    }
+
+    header{
+        padding:0;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+    }
+
+    section.mainstory{
+        grid-column: 2/4;
+        grid-row: 1/3;
+        display: flex;
+    }
+
+    div.home-container aside{
+        background:none;
+    }
+
+    section.mainstory a{
+        flex: 1 0 12em;
+        display:flex;
+        flex-direction: column;
+    }
+    section.mainstory a figure{
+        flex: 1 0 12em;
+        display: flex;
+    }
+    
+    section.mainstory a figure img{
+        object-fit: cover;
+    }
+
+    section.mainstory a h2{
+        flex: 0 0 1em;
+    }
+    
+    section.mainstory a p{
+        flex: 0 0 4em;
+    }
+
+    section.secondstory{
+        display: flex;
+    }
+
+    section.secondstory a{
+        flex: 1 0 12em;
+        display:flex;
+        flex-direction: column;
+    }
+    section.secondstory a figure{
+        flex: 1 0 12em;
+        display: flex;
+    }
+    
+    section.secondstory a figure img{
+        object-fit: cover;
+    }
+    
+    section.secondstory a h2{
+        flex: 0 0 1em;
+    }
+    
+    section.secondstory a p{
+        flex: 0 0 4em;
+    }
 }
