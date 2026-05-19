@@ -30,9 +30,10 @@ nav ul li{
 }
 
 nav{ 
-    font-family: sans-serif;
-    font-weight: bold;
-    color:rgb(95, 123, 160);
+    font-family: "waverly-cf", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color:#191D1C;
     font-size: 1.5em;
 }
 
@@ -43,40 +44,51 @@ a{
 
 section.mainstory h2{
     font-size: 3em;
-    color:rgb(95, 123, 160);
+    color:#ff761b;
     font-family: serif;
     font-weight: bold;
-    padding: 0.5rem 0.5rem 0rem;
+    padding: 0.5rem 0rem 0rem;
+    font-family: "waverly-cf", sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 
 section.secondstory h2{
     font-size: 2em;
-    color:rgb(95, 123, 160);
+    color:#ff761b;
     font-family: serif;
     font-weight: bold;
-    padding: 0.5rem 0.5rem 0rem;
+    padding: 0.5rem 0rem 0rem;
+    font-family: "waverly-cf", sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 
 section.thirdstory h2{
     font-size: 1.5em;
-    color:rgb(95, 123, 160);
+    color:#ff761b;
     font-family: serif;
     font-weight: bold;
-    border-top: 2px solid rgb(95, 123, 160);
-    padding: 0.5rem;
+    border-top: 2px solid #ff761b;
+    padding: 0.5rem 0;
+    font-family: "waverly-cf", sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 
 p{ 
-    font-family: sans-serif;
+    font-family: "miller-text", serif;
+    font-weight: 400;
+    font-style: normal;
     margin-bottom: 1em;
     line-height: 1.3em;
-    padding: 0rem 0.5rem;
+    color:#191D1C
 }
 
 footer{
     font-family: sans-serif;
     padding: 1rem 0.5rem;
-    background-color: rgb(95, 123, 160);
+    background-color: #191D1C;
     color: #ffffff;
 }
 
@@ -86,19 +98,20 @@ aside{
 /* Main story page */
 h2{
     font-size: 3em;
-    color:rgb(95, 123, 160);
-    font-family: serif;
-    font-weight: bold;
-    padding: 0.5rem 0.5rem 0rem;
+    color:#ff761b;
+    font-family: "waverly-cf", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
 }
 
 figcaption{
-    color:#5a5a5a;
+    color:#333639;
     font-family: sans-serif;
     font-style: italic;
     margin-bottom: 1em;
     line-height: 1.3em;
-    padding: 0rem 0.5rem;   
+    padding: 0.5rem 0.5rem 0rem;   
 }
 
 @media (min-width: 36em) {
