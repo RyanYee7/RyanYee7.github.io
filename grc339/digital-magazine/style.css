@@ -43,7 +43,7 @@ a{
 }
 
 section.mainstory h2{
-    font-size: 3em;
+    font-size: 2em;
     color:#ff761b;
     font-family: serif;
     font-weight: bold;
@@ -54,7 +54,7 @@ section.mainstory h2{
 }
 
 section.secondstory h2{
-    font-size: 2em;
+    font-size: 1.5em;
     color:#ff761b;
     font-family: serif;
     font-weight: bold;
@@ -97,7 +97,7 @@ aside{
 }
 /* Main story page */
 h2{
-    font-size: 3em;
+    font-size: 2em;
     color:#ff761b;
     font-family: "waverly-cf", sans-serif;
     font-weight: 800;
@@ -105,9 +105,18 @@ h2{
 
 }
 
+aside section.secondstory h2{
+    font-size: 1.2em;
+    color:#ff761b;
+    font-family: "waverly-cf", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    padding: 0.5rem 0;
+}
+
 figcaption{
     color:#333639;
-    font-family: sans-serif;
+    font-family: "waverly-cf",sans-serif;
     font-style: italic;
     margin-bottom: 1em;
     line-height: 1.3em;
@@ -128,9 +137,10 @@ section.gallery {
 }
 
 main.gallery figure img {
-    width: 100%;
+    width: 96.5%;
     height: 35em;
     object-fit: cover;
+    object-position: center;
 }
 
 section.gallery figure {
@@ -403,5 +413,53 @@ textarea {
         height: auto;
         aspect-ratio: 1 / 1;
         object-fit: cover;
+    }
+}
+
+/* Alternate Visual Language */
+
+@media screen and (prefers-color-scheme: dark) {
+    h1{
+        background-image: url("backwash\ logo\ alt.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    h1 img{
+        opacity: 0;
+    }
+
+
+    body {
+        background-color: #191D1C;
+    }
+
+    nav {
+        color: #ff761b;
+    }
+
+    section {
+        background-color: #64676a;
+    }
+
+    figcaption {
+        color: #737373;
+    }
+
+    footer {
+        background-color: #ff761b;
+        color: #191D1C;
+    }
+
+    p{
+        color: #eeeeee;
+    }
+
+    label{
+        color: #eeeeee;
+    }
+
+    section.gallery figcaption{
+        color: #eeeeee;
     }
 }
